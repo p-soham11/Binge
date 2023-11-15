@@ -5,7 +5,7 @@ import {fetchDataFromApi} from "./utils/api";
 function App() {
 
   useEffect(() => {
-    apiTest
+    apiTest();
   }, [])
 
   const apiTest = () => {
